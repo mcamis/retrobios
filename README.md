@@ -14,15 +14,17 @@ Pick your platform below and extract the pack: it carries every file its emulato
 ## Quick Install
 
 Copy one command into your terminal:
-
+##### Linux / macOS / Steam Deck
 ```bash
-# Linux / macOS / Steam Deck
 curl -fsSL https://raw.githubusercontent.com/Abdess/retrobios/main/install.sh | sh
+```
 
-# Windows (PowerShell)
+##### Windows (PowerShell)
+```bash
 irm https://raw.githubusercontent.com/Abdess/retrobios/main/install.ps1 | iex
-
-# Handheld (SD card mounted on PC)
+```
+##### Handheld (SD card mounted on PC)
+```bash
 curl -fsSL https://raw.githubusercontent.com/Abdess/retrobios/main/install.sh | sh -s -- --platform retroarch --dest /path/to/sdcard
 ```
 
